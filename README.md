@@ -7,4 +7,8 @@ MkDocs for UArizona Planet Labs kick-off 2023-02-15
 
 ### Lessons
 
+four lessons
+
 ### Notebooks
+
+two notebooks
