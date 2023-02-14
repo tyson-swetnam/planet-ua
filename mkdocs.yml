@@ -123,7 +123,11 @@ markdown_extensions:
 plugins:
   - search
   - mkdocstrings
-  - git-revision-date
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: timeago
+  - minify:
+      minify_html: true
   - mkdocs-jupyter:
       include_source: True
       ignore_h1_titles: True
