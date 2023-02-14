@@ -1,0 +1,131 @@
+docs_dir: docs/
+repo_name: 'tyson-swetnam/planet-ua'
+repo_url: 'https://github.com/tyson-swetnam/planet-ua'
+
+site_name: 'Planet Labs Intro Workshop'
+site_description: 'Workshop teaching researchers core skills for conducting open science using Planet Labs Data, University of Arizona 2023-02-14'
+site_author: 'Samapriya Roy, Tyson Swetnam'
+site_url: 'https://tyson-swetnam.github.io/planet-ua'
+
+edit_uri: edit/mkdocs/docs
+
+# Copyright
+copyright: 'Copyright &copy; 2022 CyVerse'
+
+# Navigation Page
+
+nav:
+  - Home: 
+    - 'Home': index.md
+    - 'Code of Conduct': code_of_conduct.md
+  - Lessons:
+    - '1. Using CyVerse': 01_cyverse.md
+    - '2. Getting started with Planet Data': 02_planet.md
+    - '3. Working in Jupyter Notebooks': 03_jupyter.md
+    - '4. Working in Google Earth Engine': 04_gee.md
+  - Notebooks:
+      - 'Overview': final_project/overview.md
+  - Jupyter Notebook Examples:
+    - 'Planet Data': notebooks/planet_data.ipynb
+    - 'SciKit Learn': notebooks/scikit_learn.ipynb
+
+# Configuration
+theme:
+  name: 'material'
+
+  # 404 page
+  static_templates:
+    - 404.html
+
+  # downloading ipynb notebooks
+  custom_dir: "docs/overrides"
+    
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+
+  # Default values, taken from mkdocs_theme.yml
+  language: en
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: agic 
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+  font:
+    text: Montserrat
+    code: Regular
+  favicon: assets/favicon.png
+  icon:
+    logo: material/cloud-braces
+
+# Options
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/tyson-swetnam/planet-ua.git
+
+extra_css:
+  - stylesheets/extra.css
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - abbr
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+plugins:
+    - search
+    - mkdocstrings
+    - git-revision-date
+    - mkdocs-jupyter:
+          include_source: True
+          ignore_h1_titles: True
