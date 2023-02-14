@@ -30,4 +30,14 @@
          <lastmod>2023-02-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
+    <url>
+         <loc>https://tyson-swetnam.github.io/planet-ua/notebooks/planet_data/</loc>
+         <lastmod>2023-02-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://tyson-swetnam.github.io/planet-ua/notebooks/scikit_learn/</loc>
+         <lastmod>2023-02-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
 </urlset>
