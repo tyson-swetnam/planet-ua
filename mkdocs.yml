@@ -1,37 +1,36 @@
-docs_dir: docs/
-repo_name: 'tyson-swetnam/planet-ua'
-repo_url: 'https://github.com/tyson-swetnam/planet-ua'
+repo_name: "tyson-swetnam/planet-ua"
+repo_url: "https://github.com/tyson-swetnam/planet-ua"
 
-site_name: 'Planet Labs Intro Workshop'
-site_description: 'Workshop teaching researchers core skills for conducting open science using Planet Labs Data, University of Arizona 2023-02-14'
-site_author: 'Samapriya Roy, Tyson Swetnam'
-site_url: 'https://tyson-swetnam.github.io/planet-ua'
+site_name: "Planet Labs Intro Workshop"
+site_description: "Workshop teaching researchers core skills for conducting open science using Planet Labs Data, University of Arizona 2023-02-14"
+site_author: "Samapriya Roy, Tyson Swetnam"
+site_url: "https://tyson-swetnam.github.io/planet-ua"
 
 edit_uri: edit/main/docs
 
 # Copyright
-copyright: 'Copyright &copy; 2022 CyVerse'
+copyright: "Copyright &copy; 2022 CyVerse"
 
 # Navigation Page
 
 nav:
-  - Home: 
-    - 'Home': index.md
-    - 'Code of Conduct': code_of_conduct.md
+  - Home:
+      - "Home": index.md
+      - "Code of Conduct": code_of_conduct.md
   - Lessons:
-    - '1. Using CyVerse': 01_cyverse.md
-    - '2. Getting started with Planet Data': 02_planet.md
-    - '3. Working in Jupyter Notebooks': 03_jupyter.md
-    - '4. Working in Google Earth Engine': 04_gee.md
+      - "1. Using CyVerse": docs/01_cyverse.md
+      - "2. Getting started with Planet Data": docs/02_planet.md
+      - "3. Working in Jupyter Notebooks": docs/03_jupyter.md
+      - "4. Working in Google Earth Engine": docs/04_gee.md
   - Notebooks:
-      - 'Overview': final_project/overview.md
+      - "Overview": final_project/overview.md
   - Jupyter Notebook Examples:
-    - 'Planet Data': notebooks/planet_data.ipynb
-    - 'SciKit Learn': notebooks/scikit_learn.ipynb
+      - "Planet Data": notebooks/planet_data.ipynb
+      - "SciKit Learn": notebooks/scikit_learn.ipynb
 
 # Configuration
 theme:
-  name: 'material'
+  name: "material"
 
   # 404 page
   static_templates:
@@ -39,7 +38,7 @@ theme:
 
   # downloading ipynb notebooks
   custom_dir: "docs/overrides"
-    
+
   # Don't include MkDocs' JavaScript
   include_search_page: false
   search_index_only: true
@@ -55,7 +54,7 @@ theme:
 
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
-      scheme: agic 
+      scheme: agic
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
@@ -123,9 +122,9 @@ markdown_extensions:
   - pymdownx.tilde
 
 plugins:
-    - search
-    - mkdocstrings
-    - git-revision-date
-    - mkdocs-jupyter:
-          include_source: True
-          ignore_h1_titles: True
+  - search
+  - mkdocstrings
+  - git-revision-date
+  - mkdocs-jupyter:
+      include_source: True
+      ignore_h1_titles: True
