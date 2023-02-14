@@ -1,3 +1,25 @@
+## What is CyVerse?
+
+![CyVerse](assets/cyverse_logo_2022.svg){width=600}
+
+[CyVerse](https://cyverse.org){target=_blank} is a powerful computational infrastructure and the people who support its operations. 
+
+CyVerse was built to handle huge datasets and complex analyses for life sciences research, thus enabling users to make data-driven discoveries.
+
+CyVerse cyberinfrastructure includes:
+
+[de]: assets/deIcon.svg
+[data]: assets/dataIcon.svg
+[ball]: assets/cyverse_ball_2022.png
+
+[![][data]{width=25}](https://cyverse.org/data-store){target=_blank} [Data Storage](https://cyverse.org/data-store){target=_blank} - free allocation space for all users, and fee-based storage services, [contact us](https://user.cyverse.org/requests/2){target=_blank} to help you scale your project.
+
+[![][de]{width=25}](https://user.cyverse.org/services/2){target=_blank} [Data Science Workbench](https://user.cyverse.org/services/2){target=_blank}  - An interactive, web-based, analytical platform called the "[Discovery Environment](https://de.cyverse.org){target=_blank}"
+
+[![][ball]{width=25}](https://cyverse.org/teach){target=_blank} [Education and Training](https://cyverse.org/teach){target=_blank} - learn how to use containers, workflows, and public research cyberinfrastructure from our professional trainers.
+
+
+
 ## Create a CyVerse User Account.
 
 To use CyVerse's platforms, you will need to create an account. Here's how to do so:
