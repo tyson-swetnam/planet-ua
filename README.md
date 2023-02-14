@@ -2,8 +2,8 @@
 
 MkDocs for UArizona Planet Labs kick-off 2023-02-15
 
-Contents
+## Contents
 
-Lessons
+### Lessons
 
-Notebooks
+### Notebooks
