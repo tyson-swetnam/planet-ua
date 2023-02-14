@@ -7,7 +7,7 @@ site_description: 'Workshop teaching researchers core skills for conducting open
 site_author: 'Samapriya Roy, Tyson Swetnam'
 site_url: 'https://tyson-swetnam.github.io/planet-ua'
 
-edit_uri: edit/mkdocs/docs
+edit_uri: edit/main/docs
 
 # Copyright
 copyright: 'Copyright &copy; 2022 CyVerse'
