@@ -12,18 +12,17 @@ edit_uri: edit/main/docs
 copyright: "Copyright &copy; 2022 CyVerse"
 
 # Navigation Page
+docs_dir: docs/
 
 nav:
   - Home:
       - "Home": index.md
       - "Code of Conduct": code_of_conduct.md
   - Lessons:
-      - "1. Using CyVerse": docs/01_cyverse.md
-      - "2. Getting started with Planet Data": docs/02_planet.md
-      - "3. Working in Jupyter Notebooks": docs/03_jupyter.md
-      - "4. Working in Google Earth Engine": docs/04_gee.md
-  - Notebooks:
-      - "Overview": final_project/overview.md
+      - "1. Using CyVerse": 01_cyverse.md
+      - "2. Getting started with Planet Data": 02_planet.md
+      - "3. Working in Jupyter Notebooks": 03_jupyter.md
+      - "4. Working in Google Earth Engine": 04_gee.md
   - Jupyter Notebook Examples:
       - "Planet Data": notebooks/planet_data.ipynb
       - "SciKit Learn": notebooks/scikit_learn.ipynb
