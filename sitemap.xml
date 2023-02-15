@@ -2,42 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://tyson-swetnam.github.io/planet-ua/</loc>
-         <lastmod>2023-02-14</lastmod>
+         <lastmod>2023-02-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://tyson-swetnam.github.io/planet-ua/01_cyverse/</loc>
-         <lastmod>2023-02-14</lastmod>
+         <lastmod>2023-02-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://tyson-swetnam.github.io/planet-ua/02_planet/</loc>
-         <lastmod>2023-02-14</lastmod>
+         <lastmod>2023-02-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://tyson-swetnam.github.io/planet-ua/03_jupyter/</loc>
-         <lastmod>2023-02-14</lastmod>
+         <lastmod>2023-02-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://tyson-swetnam.github.io/planet-ua/04_gee/</loc>
-         <lastmod>2023-02-14</lastmod>
+         <lastmod>2023-02-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://tyson-swetnam.github.io/planet-ua/code_of_conduct/</loc>
-         <lastmod>2023-02-14</lastmod>
+         <lastmod>2023-02-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://tyson-swetnam.github.io/planet-ua/notebooks/planet_data/</loc>
-         <lastmod>2023-02-14</lastmod>
+         <lastmod>2023-02-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://tyson-swetnam.github.io/planet-ua/notebooks/scikit_learn/</loc>
-         <lastmod>2023-02-14</lastmod>
+         <lastmod>2023-02-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
