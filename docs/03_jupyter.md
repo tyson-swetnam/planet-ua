@@ -22,7 +22,7 @@ After a few seconds, the repository should show up as a new folder called `noteb
 
 We have already created an environment called `planet` for this workshop - but you can practice by creating the suggested environment.
 
-??? Info "Creating a Python environment 
+??? Info "Creating a Python environment" 
 
     We recommend using a package manager like `pip` or `conda` to manage your Python environments.
 
